@@ -3,11 +3,23 @@
 Markdown图片转base64小工具。
 平时写`Markdown`时，总会遇到插入图片的问题。而目前所使用的`Markdown`软件，对图片并不友好，为此写了这个小工具，虽然简单，但也算解决了我日常工作中的一个痛点。
 
+
+## 原理
+
+将图片转为base64，并生成类似下面的Markdown语句。
+
+```
+![pic2base64.gif][pic2base64.gif]
+[pic2base64.gif]:data:image/gif;base64,R0lGODlhSgXkAvcAAB4dHR4dHR4dHh4dKh4dMR0dLhoaL.....
+```
+
 ## 使用方法
 
 将图片拖拽到工具上，在编辑器粘贴即可。
 
 ![pic2base64.gif][pic2base64.gif]
+
+
 
 ## 缺点
 
